@@ -1,0 +1,32 @@
+{
+  "tests": [
+    {
+      "name": "Test lead submission with valid data",
+      "method": "POST",
+      "path": "/",
+      "body": {
+        "name": "Иван Иванов",
+        "phone": "+7 900 123-45-67"
+      },
+      "expectedStatus": 200,
+      "expectedBody": {
+        "success": true,
+        "id": "number"
+      },
+      "bodyMatcher": "partial"
+    },
+    {
+      "name": "Test missing required fields",
+      "method": "POST",
+      "path": "/",
+      "body": {
+        "name": "Только имя"
+      },
+      "expectedStatus": 400,
+      "expectedBody": {
+        "error": "string"
+      },
+      "bodyMatcher": "partial"
+    }
+  ]
+}

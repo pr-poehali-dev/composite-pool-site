@@ -10,14 +10,37 @@ const Index = () => {
   const [formData, setFormData] = useState({ name: '', phone: '' });
   const { toast } = useToast();
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    toast({
-      title: 'Заявка отправлена!',
-      description: 'Мы свяжемся с вами в ближайшее время.',
-    });
-    setFormData({ name: '', phone: '' });
-    setIsDialogOpen(false);
+    
+    try {
+      const response = await fetch('https://functions.poehali.dev/f1fbe1df-1143-4ad3-ad4c-7c013bb87701', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+      
+      const result = await response.json();
+      
+      if (response.ok && result.success) {
+        toast({
+          title: 'Заявка отправлена!',
+          description: 'Мы свяжемся с вами в ближайшее время.',
+        });
+        setFormData({ name: '', phone: '' });
+        setIsDialogOpen(false);
+      } else {
+        throw new Error(result.error || 'Failed to submit');
+      }
+    } catch (error) {
+      toast({
+        title: 'Ошибка',
+        description: 'Не удалось отправить заявку. Попробуйте позже.',
+        variant: 'destructive',
+      });
+    }
   };
 
   const scrollToSection = (section: string) => {
