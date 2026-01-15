@@ -6,117 +6,6 @@ interface MainContentProps {
   scrollToSection: (section: string) => void;
 }
 
-const pools = [
-  {
-    name: 'ПОРТО',
-    subtitle: 'САМЫЙ БОЛЬШОЙ КОМПОЗИТНЫЙ БАССЕЙН В РОССИИ',
-    length: '14,1 м',
-    width: '4,04 м',
-    depth: '1,4 м',
-    volume: '83 куб.',
-    image: 'https://franmer-krasnodar.ru/img/img_models_m/p_c88035a4.png'
-  },
-  {
-    name: 'ПОРТО POOL COVER',
-    subtitle: 'С ПОКРЫТИЕМ',
-    length: '14,1 м',
-    width: '4,04 м',
-    depth: '1,4 м',
-    volume: '83 куб.',
-    image: 'https://franmer-krasnodar.ru/img/img_models_m/p_cb2463fb.png'
-  },
-  {
-    name: 'ОЛИМПИК',
-    subtitle: 'КЛАССИЧЕСКАЯ ФОРМА',
-    length: '12,9 м',
-    width: '3,7 м',
-    depth: '1,2 м',
-    volume: '54 куб.',
-    image: 'https://franmer-krasnodar.ru/img/img_models_m/p_e53518ad.png'
-  },
-  {
-    name: 'ПРЕМЬЕР-SPA',
-    subtitle: 'С ЗОНОЙ ОТДЫХА',
-    length: '12 м',
-    width: '4,4 м',
-    depth: '1,5 м',
-    volume: '56 куб.',
-    image: 'https://franmer-krasnodar.ru/img/img_models_m/p_9bf18a92.png'
-  },
-  {
-    name: 'РИВЬЕРА',
-    subtitle: 'С ГИДРОМАССАЖЕМ',
-    length: '12 м',
-    width: '4,4 м',
-    depth: '1,55 м',
-    volume: '56 куб.',
-    image: 'https://franmer-krasnodar.ru/img/img_models_m/p_e20f4942.png'
-  },
-  {
-    name: 'ЛЕ МАН',
-    subtitle: 'ОПТИМАЛЬНЫЙ РАЗМЕР',
-    length: '10,9 м',
-    width: '3,7 м',
-    depth: '1,26 м',
-    volume: '42 куб.',
-    image: 'https://franmer-krasnodar.ru/img/img_models_m/p_741794d0.png'
-  },
-  {
-    name: 'КСАБИЯ',
-    subtitle: 'ЭЛЕГАНТНЫЙ ДИЗАЙН',
-    length: '10,82 м',
-    width: '4,08 м',
-    depth: '1,3 м',
-    volume: '68 куб.',
-    image: 'https://franmer-krasnodar.ru/img/img_models_m/p_37ebee91.png'
-  },
-  {
-    name: 'КСАБИЯ POOL COVER',
-    subtitle: 'С ПОКРЫТИЕМ',
-    length: '10,82 м',
-    width: '4,08 м',
-    depth: '1,3 м',
-    volume: '68 куб.',
-    image: 'https://franmer-krasnodar.ru/img/img_models_m/p_af269c17.png'
-  },
-  {
-    name: 'ДИЖОН',
-    subtitle: 'КОМПАКТНАЯ МОДЕЛЬ',
-    length: '10,03 м',
-    width: '3,69 м',
-    depth: '1,26 м',
-    volume: '40 куб.',
-    image: 'https://franmer-krasnodar.ru/img/img_models_m/p_e7de2825.png'
-  },
-  {
-    name: 'КОНЬЯК',
-    subtitle: 'ИДЕАЛЬНАЯ ПРОПОРЦИЯ',
-    length: '9,8 м',
-    width: '4,08 м',
-    depth: '1,27 м',
-    volume: '43 куб.',
-    image: 'https://franmer-krasnodar.ru/img/img_models_m/p_19bb3c85.png'
-  },
-  {
-    name: 'БРЕТАНЬ',
-    subtitle: 'СЕМЕЙНЫЙ БАССЕЙН',
-    length: '9,5 м',
-    width: '3,69 м',
-    depth: '1,26 м',
-    volume: '36 куб.',
-    image: 'https://franmer-krasnodar.ru/img/img_models_m/p_4c7e7d36.png'
-  },
-  {
-    name: 'КАННЫ',
-    subtitle: 'СОВРЕМЕННЫЙ ДИЗАЙН',
-    length: '8,7 м',
-    width: '3,4 м',
-    depth: '1,23 м',
-    volume: '31 куб.',
-    image: 'https://franmer-krasnodar.ru/img/img_models_m/p_b2fe2cac.png'
-  }
-];
-
 const gallery = [
   'https://cdn.poehali.dev/projects/d2d753c4-847a-4ae3-876d-967bab59afbe/files/03ae61dd-72d4-4fa7-9df9-cb1cfce108e4.jpg',
   'https://cdn.poehali.dev/projects/d2d753c4-847a-4ae3-876d-967bab59afbe/files/8a4a2325-f97b-4019-b0c0-80a6a8a0758f.jpg',
@@ -132,95 +21,120 @@ const MainContent = ({ scrollToSection }: MainContentProps) => {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-secondary/5 to-accent/10"></div>
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-4xl mx-auto text-center animate-fade-in">
-            <h2 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-              Композитные бассейны премиум-класса
-            </h2>
-            <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Более 20 лет создаём бассейны мечты с гарантией качества и долговечности
+          <div className="max-w-5xl mx-auto text-center animate-fade-in">
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
+              Композитные бассейны FRANMER
+            </h1>
+            <p className="text-2xl md:text-3xl text-muted-foreground mb-4 font-semibold">
+              Более 20 лет производим бассейны премиум-класса
+            </p>
+            <p className="text-xl text-muted-foreground mb-8">
+              Европейское качество • 35 лет гарантии • Установка за 3 дня
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <Button 
                 size="lg" 
                 className="bg-gradient-to-r from-primary to-secondary hover:opacity-90 shadow-2xl text-lg px-8"
-                onClick={() => scrollToSection('catalog')}
+                onClick={() => scrollToSection('contacts')}
               >
-                <Icon name="Sparkles" className="mr-2" size={20} />
-                Смотреть каталог
+                <Icon name="Send" className="mr-2" size={20} />
+                Получить консультацию
               </Button>
               <Button 
                 size="lg" 
                 variant="outline"
                 className="border-2 border-primary text-primary hover:bg-primary/10 text-lg px-8"
-                onClick={() => scrollToSection('contacts')}
+                onClick={() => scrollToSection('gallery')}
               >
-                <Icon name="Calculator" className="mr-2" size={20} />
-                Рассчитать стоимость
+                <Icon name="Images" className="mr-2" size={20} />
+                Наши работы
               </Button>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="catalog" className="py-20 bg-white">
+      <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              Каталог бассейнов
+              Почему выбирают FRANMER
             </h2>
-            <p className="text-lg text-muted-foreground">Выберите идеальную модель для вашего участка</p>
+            <p className="text-lg text-muted-foreground">Лидер рынка композитных бассейнов в Краснодарском крае</p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {pools.map((pool, index) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+            {[
+              {
+                icon: 'Trophy',
+                title: '5000+ бассейнов',
+                description: 'Установлено по Краснодарскому краю за 20 лет работы'
+              },
+              {
+                icon: 'Grid3x3',
+                title: '84 модели',
+                description: 'Композитных бассейнов для любых потребностей и участков'
+              },
+              {
+                icon: 'Waves',
+                title: '14 демо-бассейнов',
+                description: 'Действующих бассейнов для тест-драйва в брэнд-офисах'
+              },
+              {
+                icon: 'Headphones',
+                title: 'Сервис 24/7',
+                description: 'Круглосуточная поддержка, ремонт, обслуживание, консервация'
+              },
+              {
+                icon: 'Package',
+                title: '500+ позиций',
+                description: 'Оборудования и химии в наличии без ожидания'
+              },
+              {
+                icon: 'Home',
+                title: 'Работы «под ключ»',
+                description: 'Полный цикл от котлована до кристально чистой воды'
+              }
+            ].map((item, index) => (
               <Card 
-                key={pool.name}
-                className="group overflow-hidden hover:shadow-2xl transition-all duration-300 border-2 hover:border-primary/50 animate-scale-in"
+                key={item.title}
+                className="p-8 hover:shadow-xl transition-all duration-300 border-2 hover:border-primary/50 animate-scale-in"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <div className="relative overflow-hidden bg-gradient-to-br from-blue-100 to-blue-200 h-48">
-                  <img 
-                    src={pool.image} 
-                    alt={pool.name}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
-                  {index === 0 && (
-                    <div className="absolute top-4 right-4 bg-gradient-to-r from-accent to-orange-500 text-white px-3 py-1 rounded-full text-sm font-bold shadow-lg">
-                      ХИТ
-                    </div>
-                  )}
+                <div className="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-2xl flex items-center justify-center mb-6 shadow-lg">
+                  <Icon name={item.icon as any} className="text-white" size={32} />
                 </div>
-                
-                <CardContent className="p-6">
-                  <h3 className="text-2xl font-bold mb-2 text-primary">{pool.name}</h3>
-                  <p className="text-xs text-accent font-semibold mb-4 uppercase tracking-wide">{pool.subtitle}</p>
-                  
-                  <div className="space-y-2 mb-6">
-                    <div className="flex justify-between items-center">
-                      <span className="text-sm text-muted-foreground">Длина:</span>
-                      <span className="font-semibold">{pool.length}</span>
-                    </div>
-                    <div className="flex justify-between items-center">
-                      <span className="text-sm text-muted-foreground">Ширина:</span>
-                      <span className="font-semibold">{pool.width}</span>
-                    </div>
-                    <div className="flex justify-between items-center">
-                      <span className="text-sm text-muted-foreground">Глубина:</span>
-                      <span className="font-semibold">{pool.depth}</span>
-                    </div>
-                    <div className="flex justify-between items-center pt-2 border-t">
-                      <span className="text-sm text-muted-foreground">Объём:</span>
-                      <span className="font-bold text-lg text-primary">{pool.volume}</span>
-                    </div>
-                  </div>
-
-                  <Button className="w-full bg-gradient-to-r from-primary to-secondary hover:opacity-90 shadow-lg">
-                    <Icon name="Calculator" className="mr-2" size={18} />
-                    Рассчитать стоимость
-                  </Button>
-                </CardContent>
+                <h3 className="text-2xl font-bold mb-3 text-primary">{item.title}</h3>
+                <p className="text-muted-foreground">{item.description}</p>
               </Card>
             ))}
+          </div>
+
+          <div className="max-w-4xl mx-auto">
+            <Card className="p-8 md:p-12 bg-gradient-to-br from-primary/5 to-secondary/5 border-2 border-primary/20 animate-fade-in">
+              <div className="text-center mb-8">
+                <h3 className="text-3xl md:text-4xl font-bold mb-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+                  Гарантия 35 лет
+                </h3>
+                <p className="text-lg text-muted-foreground">
+                  Официальная гарантия производителя на все композитные бассейны
+                </p>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+                <div className="p-4">
+                  <div className="text-4xl font-bold text-primary mb-2">7 слоёв</div>
+                  <p className="text-sm text-muted-foreground">Армированный стекловолокном композит</p>
+                </div>
+                <div className="p-4">
+                  <div className="text-4xl font-bold text-primary mb-2">3 дня</div>
+                  <p className="text-sm text-muted-foreground">Быстрый монтаж без долгого строительства</p>
+                </div>
+                <div className="p-4">
+                  <div className="text-4xl font-bold text-primary mb-2">50 км</div>
+                  <p className="text-sm text-muted-foreground">Бесплатный выезд мобильного офиса</p>
+                </div>
+              </div>
+            </Card>
           </div>
         </div>
       </section>

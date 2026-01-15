@@ -35,7 +35,6 @@ const Header = ({
         
         <nav className="hidden md:flex gap-6">
           {[
-            { id: 'catalog', label: 'Каталог', icon: 'Grid3x3' },
             { id: 'gallery', label: 'Галерея', icon: 'Images' },
             { id: 'technology', label: 'Технология', icon: 'Settings' },
             { id: 'contacts', label: 'Контакты', icon: 'Phone' }
