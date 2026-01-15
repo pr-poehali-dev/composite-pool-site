@@ -14,7 +14,7 @@ const pools = [
     width: '4,04 м',
     depth: '1,4 м',
     volume: '83 куб.',
-    image: 'https://cdn.poehali.dev/projects/d2d753c4-847a-4ae3-876d-967bab59afbe/files/f4c319df-33d4-43ad-bc71-6ede678bce03.jpg'
+    image: 'https://franmer-krasnodar.ru/img/img_models_m/p_c88035a4.png'
   },
   {
     name: 'ПОРТО POOL COVER',
@@ -23,7 +23,7 @@ const pools = [
     width: '4,04 м',
     depth: '1,4 м',
     volume: '83 куб.',
-    image: 'https://cdn.poehali.dev/projects/d2d753c4-847a-4ae3-876d-967bab59afbe/files/f4c319df-33d4-43ad-bc71-6ede678bce03.jpg'
+    image: 'https://franmer-krasnodar.ru/img/img_models_m/p_cb2463fb.png'
   },
   {
     name: 'ОЛИМПИК',
@@ -32,7 +32,7 @@ const pools = [
     width: '3,7 м',
     depth: '1,2 м',
     volume: '54 куб.',
-    image: 'https://cdn.poehali.dev/projects/d2d753c4-847a-4ae3-876d-967bab59afbe/files/f4c319df-33d4-43ad-bc71-6ede678bce03.jpg'
+    image: 'https://franmer-krasnodar.ru/img/img_models_m/p_e53518ad.png'
   },
   {
     name: 'ПРЕМЬЕР-SPA',
@@ -41,7 +41,7 @@ const pools = [
     width: '4,4 м',
     depth: '1,5 м',
     volume: '56 куб.',
-    image: 'https://cdn.poehali.dev/projects/d2d753c4-847a-4ae3-876d-967bab59afbe/files/f4c319df-33d4-43ad-bc71-6ede678bce03.jpg'
+    image: 'https://franmer-krasnodar.ru/img/img_models_m/p_9bf18a92.png'
   },
   {
     name: 'РИВЬЕРА',
@@ -50,7 +50,7 @@ const pools = [
     width: '4,4 м',
     depth: '1,55 м',
     volume: '56 куб.',
-    image: 'https://cdn.poehali.dev/projects/d2d753c4-847a-4ae3-876d-967bab59afbe/files/f4c319df-33d4-43ad-bc71-6ede678bce03.jpg'
+    image: 'https://franmer-krasnodar.ru/img/img_models_m/p_e20f4942.png'
   },
   {
     name: 'ЛЕ МАН',
@@ -59,7 +59,7 @@ const pools = [
     width: '3,7 м',
     depth: '1,26 м',
     volume: '42 куб.',
-    image: 'https://cdn.poehali.dev/projects/d2d753c4-847a-4ae3-876d-967bab59afbe/files/f4c319df-33d4-43ad-bc71-6ede678bce03.jpg'
+    image: 'https://franmer-krasnodar.ru/img/img_models_m/p_741794d0.png'
   },
   {
     name: 'КСАБИЯ',
@@ -68,7 +68,7 @@ const pools = [
     width: '4,08 м',
     depth: '1,3 м',
     volume: '68 куб.',
-    image: 'https://cdn.poehali.dev/projects/d2d753c4-847a-4ae3-876d-967bab59afbe/files/f4c319df-33d4-43ad-bc71-6ede678bce03.jpg'
+    image: 'https://franmer-krasnodar.ru/img/img_models_m/p_37ebee91.png'
   },
   {
     name: 'КСАБИЯ POOL COVER',
@@ -77,7 +77,7 @@ const pools = [
     width: '4,08 м',
     depth: '1,3 м',
     volume: '68 куб.',
-    image: 'https://cdn.poehali.dev/projects/d2d753c4-847a-4ae3-876d-967bab59afbe/files/f4c319df-33d4-43ad-bc71-6ede678bce03.jpg'
+    image: 'https://franmer-krasnodar.ru/img/img_models_m/p_af269c17.png'
   },
   {
     name: 'ДИЖОН',
@@ -86,7 +86,7 @@ const pools = [
     width: '3,69 м',
     depth: '1,26 м',
     volume: '40 куб.',
-    image: 'https://cdn.poehali.dev/projects/d2d753c4-847a-4ae3-876d-967bab59afbe/files/f4c319df-33d4-43ad-bc71-6ede678bce03.jpg'
+    image: 'https://franmer-krasnodar.ru/img/img_models_m/p_e7de2825.png'
   },
   {
     name: 'КОНЬЯК',
@@ -95,7 +95,7 @@ const pools = [
     width: '4,08 м',
     depth: '1,27 м',
     volume: '43 куб.',
-    image: 'https://cdn.poehali.dev/projects/d2d753c4-847a-4ae3-876d-967bab59afbe/files/f4c319df-33d4-43ad-bc71-6ede678bce03.jpg'
+    image: 'https://franmer-krasnodar.ru/img/img_models_m/p_19bb3c85.png'
   },
   {
     name: 'БРЕТАНЬ',
@@ -104,7 +104,7 @@ const pools = [
     width: '3,69 м',
     depth: '1,26 м',
     volume: '36 куб.',
-    image: 'https://cdn.poehali.dev/projects/d2d753c4-847a-4ae3-876d-967bab59afbe/files/f4c319df-33d4-43ad-bc71-6ede678bce03.jpg'
+    image: 'https://franmer-krasnodar.ru/img/img_models_m/p_4c7e7d36.png'
   },
   {
     name: 'КАННЫ',
@@ -113,7 +113,7 @@ const pools = [
     width: '3,4 м',
     depth: '1,23 м',
     volume: '31 куб.',
-    image: 'https://cdn.poehali.dev/projects/d2d753c4-847a-4ae3-876d-967bab59afbe/files/f4c319df-33d4-43ad-bc71-6ede678bce03.jpg'
+    image: 'https://franmer-krasnodar.ru/img/img_models_m/p_b2fe2cac.png'
   }
 ];
 
