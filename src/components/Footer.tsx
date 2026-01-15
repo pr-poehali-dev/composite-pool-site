@@ -48,13 +48,11 @@ const Footer = ({ formData, setFormData, handleSubmit }: FooterProps) => {
 
         <div className="flex flex-col md:flex-row justify-between items-center gap-6 pt-8 border-t border-gray-700">
           <div className="flex items-center gap-3">
-            <div className="w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
-              <Icon name="Waves" className="text-white" size={24} />
-            </div>
-            <div>
-              <h3 className="text-xl font-bold">FRANMER</h3>
-              <p className="text-sm text-gray-400">композитные бассейны</p>
-            </div>
+            <img 
+              src="https://franmer-krasnodar.ru/assets/elements/templates/images/logo_white.svg" 
+              alt="FRANMER" 
+              className="h-12 w-auto"
+            />
           </div>
           
           <div className="text-center md:text-right">

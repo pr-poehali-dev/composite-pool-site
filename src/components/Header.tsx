@@ -26,15 +26,11 @@ const Header = ({
     <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-lg border-b border-gray-200 shadow-sm">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center shadow-lg">
-            <Icon name="Waves" className="text-white" size={24} />
-          </div>
-          <div>
-            <h1 className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              FRANMER
-            </h1>
-            <p className="text-xs text-muted-foreground">композитные бассейны</p>
-          </div>
+          <img 
+            src="https://franmer-krasnodar.ru/assets/elements/templates/images/logo_color.svg" 
+            alt="FRANMER" 
+            className="h-12 w-auto"
+          />
         </div>
         
         <nav className="hidden md:flex gap-6">
