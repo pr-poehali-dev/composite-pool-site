@@ -17,21 +17,21 @@ const pools = [
     image: 'https://cdn.poehali.dev/projects/d2d753c4-847a-4ae3-876d-967bab59afbe/files/f4c319df-33d4-43ad-bc71-6ede678bce03.jpg'
   },
   {
+    name: 'ПОРТО POOL COVER',
+    subtitle: 'С ПОКРЫТИЕМ',
+    length: '14,1 м',
+    width: '4,04 м',
+    depth: '1,4 м',
+    volume: '83 куб.',
+    image: 'https://cdn.poehali.dev/projects/d2d753c4-847a-4ae3-876d-967bab59afbe/files/f4c319df-33d4-43ad-bc71-6ede678bce03.jpg'
+  },
+  {
     name: 'ОЛИМПИК',
     subtitle: 'КЛАССИЧЕСКАЯ ФОРМА',
     length: '12,9 м',
     width: '3,7 м',
     depth: '1,2 м',
     volume: '54 куб.',
-    image: 'https://cdn.poehali.dev/projects/d2d753c4-847a-4ae3-876d-967bab59afbe/files/f4c319df-33d4-43ad-bc71-6ede678bce03.jpg'
-  },
-  {
-    name: 'ДИЖОН',
-    subtitle: 'КОМПАКТНАЯ МОДЕЛЬ',
-    length: '10,03 м',
-    width: '3,69 м',
-    depth: '1,26 м',
-    volume: '40 куб.',
     image: 'https://cdn.poehali.dev/projects/d2d753c4-847a-4ae3-876d-967bab59afbe/files/f4c319df-33d4-43ad-bc71-6ede678bce03.jpg'
   },
   {
@@ -53,12 +53,66 @@ const pools = [
     image: 'https://cdn.poehali.dev/projects/d2d753c4-847a-4ae3-876d-967bab59afbe/files/f4c319df-33d4-43ad-bc71-6ede678bce03.jpg'
   },
   {
+    name: 'ЛЕ МАН',
+    subtitle: 'ОПТИМАЛЬНЫЙ РАЗМЕР',
+    length: '10,9 м',
+    width: '3,7 м',
+    depth: '1,26 м',
+    volume: '42 куб.',
+    image: 'https://cdn.poehali.dev/projects/d2d753c4-847a-4ae3-876d-967bab59afbe/files/f4c319df-33d4-43ad-bc71-6ede678bce03.jpg'
+  },
+  {
     name: 'КСАБИЯ',
     subtitle: 'ЭЛЕГАНТНЫЙ ДИЗАЙН',
     length: '10,82 м',
     width: '4,08 м',
     depth: '1,3 м',
     volume: '68 куб.',
+    image: 'https://cdn.poehali.dev/projects/d2d753c4-847a-4ae3-876d-967bab59afbe/files/f4c319df-33d4-43ad-bc71-6ede678bce03.jpg'
+  },
+  {
+    name: 'КСАБИЯ POOL COVER',
+    subtitle: 'С ПОКРЫТИЕМ',
+    length: '10,82 м',
+    width: '4,08 м',
+    depth: '1,3 м',
+    volume: '68 куб.',
+    image: 'https://cdn.poehali.dev/projects/d2d753c4-847a-4ae3-876d-967bab59afbe/files/f4c319df-33d4-43ad-bc71-6ede678bce03.jpg'
+  },
+  {
+    name: 'ДИЖОН',
+    subtitle: 'КОМПАКТНАЯ МОДЕЛЬ',
+    length: '10,03 м',
+    width: '3,69 м',
+    depth: '1,26 м',
+    volume: '40 куб.',
+    image: 'https://cdn.poehali.dev/projects/d2d753c4-847a-4ae3-876d-967bab59afbe/files/f4c319df-33d4-43ad-bc71-6ede678bce03.jpg'
+  },
+  {
+    name: 'КОНЬЯК',
+    subtitle: 'ИДЕАЛЬНАЯ ПРОПОРЦИЯ',
+    length: '9,8 м',
+    width: '4,08 м',
+    depth: '1,27 м',
+    volume: '43 куб.',
+    image: 'https://cdn.poehali.dev/projects/d2d753c4-847a-4ae3-876d-967bab59afbe/files/f4c319df-33d4-43ad-bc71-6ede678bce03.jpg'
+  },
+  {
+    name: 'БРЕТАНЬ',
+    subtitle: 'СЕМЕЙНЫЙ БАССЕЙН',
+    length: '9,5 м',
+    width: '3,69 м',
+    depth: '1,26 м',
+    volume: '36 куб.',
+    image: 'https://cdn.poehali.dev/projects/d2d753c4-847a-4ae3-876d-967bab59afbe/files/f4c319df-33d4-43ad-bc71-6ede678bce03.jpg'
+  },
+  {
+    name: 'КАННЫ',
+    subtitle: 'СОВРЕМЕННЫЙ ДИЗАЙН',
+    length: '8,7 м',
+    width: '3,4 м',
+    depth: '1,23 м',
+    volume: '31 куб.',
     image: 'https://cdn.poehali.dev/projects/d2d753c4-847a-4ae3-876d-967bab59afbe/files/f4c319df-33d4-43ad-bc71-6ede678bce03.jpg'
   }
 ];
